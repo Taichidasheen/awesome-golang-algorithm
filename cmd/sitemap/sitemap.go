@@ -1,8 +1,8 @@
 package sitemap
 
 import (
+	"awesome-golang-algorithm/cmd/leetcode"
 	"fmt"
-	"github.com/kylesliu/awesome-golang-leetcode/cmd/leetcode"
 )
 
 type Config struct {

@@ -1,8 +1,8 @@
 package main
 
 import (
+	"awesome-golang-algorithm/cmd/leetcode"
 	"fmt"
-	"github.com/kylesliu/awesome-golang-leetcode/cmd/leetcode"
 )
 
 func main() {
