@@ -37,7 +37,7 @@ func PrintList(head *ListNode) {
 	fmt.Println()
 }
 
-//	更具数组反序列化链表
+//	根据数组反序列化链表
 func UnmarshalListBySlice(nums []int) *ListNode {
 	head := &ListNode{Val: -1, Next: nil}
 	tmp := head
@@ -48,6 +48,7 @@ func UnmarshalListBySlice(nums []int) *ListNode {
 	return head.Next
 }
 
+// 根据数组反序列化链表
 func UnmarshalListBySlice2(nums []int) *ListNode {
 	length := len(nums)
 	if length == 0 {
